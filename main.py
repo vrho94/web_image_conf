@@ -19,7 +19,7 @@ print('Vnesi faktor pomanšanja:')
 try:
     downscale_fac=float(input())
 except:
-    print('Vnos faktorja mora biti številsko in celo(int)!')
+    print('Vnos faktorja mora biti številsko!')
     exit()
 newImage = image.resize((int(image.width/downscale_fac),int(image.height/downscale_fac)))
 print('****************************************')
